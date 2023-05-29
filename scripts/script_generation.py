@@ -1,7 +1,7 @@
 import os
 import openai
-from voice_generation import script_to_act
-from backscreen_generation import backscreen_generation
+from voicevox.voice_generation import script_to_act
+from scripts.backscreen_generation import backscreen_generation
 from dotenv import load_dotenv
 load_dotenv(".env")
 openai.api_key = os.environ.get("OPENAI_API_KEY")

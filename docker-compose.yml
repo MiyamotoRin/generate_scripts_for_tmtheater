@@ -1,0 +1,21 @@
+version: '3'
+services:
+  scripts:
+    build:
+      context: ./scripts
+      dockerfile: Dockerfile
+    ports:
+      - "8000:80"
+    volumes:
+      - ./scripts:/app
+    depends_on:
+      - voicevox
+
+  voicevox:
+    build:
+      context: ./voicevox
+      dockerfile: Dockerfile
+    ports:
+      - "9000:80"
+    volumes:
+      - ./voicevox:/app
