@@ -14,12 +14,13 @@ RUN /usr/local/bin/python -m pip install --upgrade pip && \
 
 # Install Voicevox Core Dependencies
 RUN apt-get update && \
-    apt-get install -y wget unzip
+    apt-get install -y curl
 
 # Install Voicevox Core 
-RUN wget https://github.com/VOICEVOX/voicevox_core/releases/download/0.14.4/voicevox_core-linux-x64-cpu-0.14.4.zip \
-    && unzip voicevox_core-linux-x64-cpu-0.14.4.zip \
-    && rm voicevox_core-linux-x64-cpu-0.14.4.zip
+RUN binary=download-linux-x64 && \
+    curl -sSfL https://github.com/VOICEVOX/voicevox_core/releases/latest/download/${binary} -o download && \
+    chmod +x download && \
+    ./download
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
