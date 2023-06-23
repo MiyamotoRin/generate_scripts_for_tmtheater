@@ -1,0 +1,93 @@
+{
+  "title": "ずんだもちの秘密",
+  "scene": "春日部つむぎの家のリビング",
+  "setting_description": "春日部つむぎの家のリビングには、漫画やゲームがたくさん置いてある。家族には内緒で、友達もここによく来る。",
+  "dalle_prompt": "A cozy living room filled with manga, video games, and a group of teenage friends enjoying themselves.",
+  "scripts": [
+    {
+      "character": "四国めたん",
+      "line": "ねえねえ、つむぎ、昨日のアニメ見た？ あれ、いまだに夢中なんだけど。",
+      "emotion": "excitement"
+    },
+    {
+      "character": "春日部つむぎ",
+      "line": "ああ、見た見た！ あの戦闘シーンは最高だったね！",
+      "emotion": "joy"
+    },
+    {
+      "character": "ずんだもん",
+      "line": "戦闘シーンもいいけど、食べ物を見るのも楽しいものだなのだ。それに僕は、ずんだもちが登場するとなお嬉しいんだなのだ！",
+      "emotion": "liking"
+    },
+    {
+      "character": "四国めたん",
+      "line": "ずんだもん、君ずんだもちになんでそんなにはまってるの？",
+      "emotion": "surprise"
+    },
+    {
+      "character": "ずんだもん",
+      "line": "実は僕、ずんだもちの精霊なのだ。だから、ずんだもちへの興味が強いのだんだ！",
+      "emotion": "calm"
+    },
+    {
+      "character": "春日部つむぎ",
+      "line": "えーっ、そんなの初めて聞いたよ！ じゃあ僕たちにずんだもちを作る方法教えてくれる？",
+      "emotion": "surprise"
+    },
+    {
+      "character": "ずんだもん",
+      "line": "もちろんだなのだ！ 僕の使命は、ずんだもちをもっと知ってもらうことだからだなのだ。",
+      "emotion": "joy"
+    },
+    {
+      "character": "四国めたん",
+      "line": "じゃあ、早速教えてくれる？",
+      "emotion": "liking"
+    },
+    {
+      "character": "ずんだもん",
+      "line": "いいだろう、まずはお餅を作る必要があるんだなのだ。そして、ずんだ餡を作るんだのだ。",
+      "emotion": "calm"
+    },
+    {
+      "character": "春日部つむぎ",
+      "line": "お餅はどうやって作るんだい？ そのずんだ餡っていうのは？",
+      "emotion": "curiosity"
+    },
+    {
+      "character": "ずんだもん",
+      "line": "お餅はもち米を炊いて、杵と臼でつくんだなのだ。ずんだ餡は、さやいんげんを茹でてから皮を取り、砂糖と塩を加えて潰すんだなのだ。",
+      "emotion": "calm"
+    },
+    {
+      "character": "四国めたん",
+      "line": "それって簡単そうじゃん！ やってみようよ、つむぎ！",
+      "emotion": "excitement"
+    },
+    {
+      "character": "春日部つむぎ",
+      "line": "うん、やってみよう！",
+      "emotion": "joy"
+    },
+    {
+      "character": "ずんだもん",
+      "line": "やる気や熱意があるなら、きっと美味しいずんだもちができるんだなのだ。お手伝いもするから、やってみましょう！",
+      "emotion": "liking"
+    },
+    {
+      "character": "四国めたん",
+      "line": "じゃあ、ずんだもん、よろしくね！",
+      "emotion": "liking"
+    },
+    {
+      "character": "春日部つむぎ",
+      "line": "楽しみだね、美味しいずんだもちが食べられるの楽しみ！",
+      "emotion": "joy"
+    },
+    {
+      "character": "ずんだもん",
+      "line": "僕も楽しみだなのだ、みんなにずんだもちの素晴らしさを伝えられるんだなのだ。",
+      "emotion": "liking"
+    }
+  ]
+}

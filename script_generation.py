@@ -1,7 +1,6 @@
 import os
 import openai
-from voicevox.voice_generation import script_to_act
-from scripts.backscreen_generation import backscreen_generation
+# from voicevox.voice_generation import script_to_act
 from dotenv import load_dotenv
 load_dotenv(".env")
 openai.api_key = os.environ.get("OPENAI_API_KEY")
@@ -66,7 +65,7 @@ def script_generation():
       ```
       '''},
       {"role": "user", "content": '''
-      2000字でボイスドラマの台本を書いてください、なお、ずんだもんの一人称は僕、語尾は「です」「ます」ではなく「のだ」「なのだ」です。
+      2000語でボイスドラマの台本を書いてください、なお、ずんだもんの一人称は僕、語尾は「です」「ます」ではなく「のだ」「なのだ」です。
       '''}
     ]
   )
@@ -77,8 +76,7 @@ def script_generation():
   with open('script.json', 'w', encoding='utf-8') as f:
       f.write(script)
   
-  script_to_act()
-  backscreen_generation()
+  # script_to_act()
     
 if __name__ == '__main__':
   script_generation()

@@ -7,6 +7,7 @@ name = "pypi"
 openai = "*"
 python-dotenv = "*"
 requests = "*"
+voicevox-core = {file = "https://github.com/VOICEVOX/voicevox_core/releases/download/0.14.4/voicevox_core-0.14.4+cuda-cp38-abi3-linux_x86_64.whl"}
 
 [dev-packages]
 
